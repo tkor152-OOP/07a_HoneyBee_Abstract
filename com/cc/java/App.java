@@ -7,14 +7,16 @@ public class App {
         Queen queen = new Queen();
         Worker worker = new Worker();
         Drone drone = new Drone();
+        Bird bird = new Bird();
 
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+        pollObj(bird);
 
         // Das sollte eigentlich nicht gehen!
-        HoneyBee bee = new HoneyBee();
-        output(bee.doYourJob());
+        // HoneyBee bee = new HoneyBee();
+        // output(bee.doYourJob());
 
 
     }
